@@ -1,0 +1,10 @@
+{
+  "name": "value-objects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juan Carlos Valdés",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

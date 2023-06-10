@@ -1,0 +1,17 @@
+{
+  "name": "value-objects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juan Carlos Valdés",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.2"
+  }
+}
