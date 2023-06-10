@@ -2,9 +2,22 @@ import { UserBirthDate } from './UserBirthDate'
 import { UserEmail } from './UserEmail'
 import { UserId } from './UserId'
 /* ventajas
-- dejamos mas legible la clase
-- encapsulamos validaciones
-- prevenimos el seteo de propiedades propiedades desde fuera manteniendo la encapsulacion
+  - dejamos mas legible la clase
+  - encapsulamos validaciones
+  - prevenimos el seteo de propiedades propiedades desde fuera manteniendo la encapsulacion
+  - aporta semantica
+  - validaciones asegura consistencia
+  - mejor modelado
+  - cohesion
+  - mayor robustes
+  debates
+  - penalizacion rendimiento 30 ms en los new
+  - proceso de refactor
+  - verbosidad
+  - exponer value object desde modelos
+  - donde instanciarlos
+  - acoplamiento con uuid
+  - convencion .value
 */
 export class User {
   private readonly id: UserId
